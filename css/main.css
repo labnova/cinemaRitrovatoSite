@@ -1,0 +1,153 @@
+.headerSelect {
+  margin-top: 3%;
+}
+
+
+
+.boxAttractions {
+  display: block;
+  background-color: #eeeeee;
+  width: 347px;
+  height: 145px;
+
+}
+
+.titoloSection {
+  padding-top: 20px;
+}
+
+.titoloAttractions {
+  padding-top: 9px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #dddddd;
+
+}
+
+.titoloAttractions, .selectAttractions {
+  display: block;
+  margin: 0 auto;
+  width: 332px;
+  height: 35px;
+}
+
+.testoTitoloAttractions {
+  top:50%;
+}
+
+.selectTitoloAttractions {
+  padding-top: 7%;
+  text-align: center;
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.sectionTabs {
+  padding-left: 60px;
+  padding-right: 0;
+}
+
+li:not(.active) {
+  background-color: #eeeeee;
+}
+
+li.active, li {
+  background-color: white;
+  border-top: 1.5px solid #dddddd;
+  border-left: 1.5px solid #dddddd;
+  border-right: 1.5px solid #dddddd;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#about, #direction {
+  border-top: none;
+}
+
+
+ul.nav.nav-tabs li.active a{
+border:none;
+}
+
+
+
+ul.nav.nav-tabs li:not(.active) {
+  border:none;
+}
+
+ul.nav.nav-tabs li.active {
+  border-bottom:none;
+  border-top: 2px solid #dddddd;
+  border-left: 2px solid #dddddd;
+  border-right: 2px solid #dddddd;
+}
+
+
+
+ul.nav.nav-tabs a {
+
+  border-bottom: none;
+  margin-left: 0;
+  width: 170px ;
+  height: 32px;
+  color: black;
+  font-weight: 200;
+}
+
+
+/**--PARTE TAB FROM-TO--**/
+
+.selectTabFromTo {
+  margin-top: 16px;
+}
+
+.containerSelectTab {
+  position: relative;
+}
+
+.labelSelect {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.containerArrowButton {
+  position: relative;
+  height: 200px;
+}
+
+.changeArrowButton {
+  height: 42px;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+}
+
+.labelSelect {
+  height: 30px;
+}
+
+select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+select.selectAttractions {
+  background-color: white;
+  border-radius: none;
+}
+
+.labelSelect {
+  padding: 0;
+  margin: 0;
+}
